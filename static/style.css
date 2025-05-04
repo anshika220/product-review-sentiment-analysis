@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'poppins',sans-serif;
+    color:black
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.25rem;
+    color:black;
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display:inline-block;
+}
+.small-bold-text{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+.top-banner{
+    background-color: #DDA853;
+}
+.banner-text{
+    color: rgb(245, 243, 220);
+    padding:25px 40px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.primary-button{
+    background-color:  #16404D;
+    border-radius: 6px;
+    font-weight:700;
+    color: white !important;
+    padding : 12px 24px;
+    box-shadow: 0 0 2px cornflowerblue;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+.primary-button:hover{
+    background-color: #A6CDC6;
+
+}
+header{
+    padding: 40px 30px 0;
+}
+.header-section{
+    justify-content: center;
+    gap: 140px;
+   
+}
+.header-left h1{
+    margin-top: 20px;
+}
+
+.header-right img{
+    width: 600px;
+
+}
+.s{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+textarea {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.header-left {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+.header-right1 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 15px; 
+}
+.last{
+    background-color: #DDA853;
+    padding:20px 35px;
+}
+.back{
+    background-color: #FBF5DD;
+}
